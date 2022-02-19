@@ -34,6 +34,8 @@ Dim Tables:
 * users: user_id, first_name, last_name, gender, level
 * time: start_time, hour, day, week, month, year, weekday
 
+![alt text](https://github.com/mimoyer21/udacity-sparkifydb/blob/main/sparkifydb_erd.png?raw=true) 
+
 ## Example queries and results for song play analysis:
 (to be filled in with more examples later if desired)
 
