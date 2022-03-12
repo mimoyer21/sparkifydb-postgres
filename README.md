@@ -13,14 +13,12 @@ queries to answer such questions.
 * test.ipynb: running this displays the first few rows of each table to let you check your database at any given time for testing purposes
 * sparkifydb_erd.png: this is an image file that provides an easy-to-understand overview of the database design. This image gets re-created each time the db is populated (via the etl.py script), so changes to the db will be reflected in this image
 
-
 ## How to run the Python scripts to create and populate the 'sparkifydb' database:
 The full ETL flow only consists of two steps:
 1. Run create_tables.py to drop and create all tables
 2. Run etl.py to populate tables with data from the song_data and log_data files and create the sparkifydb_erd.png image to provide an overview of the database design
 
 The other files are all either supporting files (e.g. sql_queries.py stores queries that the .py scripts use) or are for testing (test.ipynb and etl.ipynb are useful for testing new/changed functionality before implementing in the production files)
-
 
 ## Database schema design and ETL pipeline:
 We've designed the database to have one fact table to store user song listening activity and a handful of dimension tables to store relevant entities. The fact table, 'songplays', is relatively normalized, so users will need to join to relevant tables to pull in most song/artist/user details.
