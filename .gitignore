@@ -1,0 +1,8 @@
+.workspace-config.json
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
