@@ -1,8 +1,8 @@
-# Readme.md for sparkifydb ETL pipeline
+# Readme.md for sparkifydb ETL pipeline to populate Postgres DB
 
 ## Purpose:
 The purpose of this database is to provide datasets that enable answering questions about user behavior in the Sparkify app (especially user song 
-listening behavior). To do so we ingest the app logs of user behavior and song metadata into a Postgresql database, 'sparkifydb', from where we can run
+listening behavior). To do so we ingest the app logs of user behavior and song metadata into a PostgreSQL database, 'sparkifydb', from where we can run
 queries to answer such questions.
 
 ## An explanation of the files in the repository:
